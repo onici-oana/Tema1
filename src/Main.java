@@ -2,12 +2,13 @@ public class Main {
 
     public static void main(String[] args) {
 
-        //Exercitiul 5
+        //Exercitiul 6
 
-        int n=24;
-        for(int i=n;i>=1;i--)
+        int n=6,x=1;
+        for(int i=1;i<=n;i++)
         {
-            System.out.print(i+" ");
+            System.out.print(x+ " ");
+            x=x+2;
         }
     }
 }
