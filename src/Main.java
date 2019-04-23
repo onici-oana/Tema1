@@ -2,19 +2,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-        int x=1;
-        switch(x)
-        {
-            case 1: System.out.print("# "); x++;
-            case 2: System.out.print("## ");x++;
-            case 3: System.out.print("### "); x++;
-            case 4 :System.out.print("#### "); x++;
-            case 5: System.out.print("### "); x++;
-            case 6: System.out.print("## "); x++;
-            case 7: System.out.print("# "); x++;
-                break;
-        }
-            }
-        }
+ int n=6, k=1; //am incercat metoda pe exemplul din tema
+      while(n!=1) {
+          if (n % 2 == 0) {
+              n = n / 2;
+              k++;
+          } else {
+              n = 3 * n + 1;
+              k++;
+          }
+      }
+        System.out.println("Numarul de pasi este:" +k);
+
+
+    }
+}
 
 
