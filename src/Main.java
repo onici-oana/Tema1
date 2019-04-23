@@ -2,57 +2,53 @@ public class Main {
 
     public static void main(String[] args) {
 
-       //Exercitiul 11 var 2
-        int x=9;
-        if(x==1) {
-            System.out.println("Este numarul 1");}
-            else
-                {
-                if(x==2) {
-                    System.out.println("Este numarul 2");
-                }
-                else{
-                    if(x==3)
-                    {System.out.println("Este numarul 3");}
-                    else
-                    {
-                        if(x==4)
-                        {System.out.println("Este numarul 4");}
-                        else
-                        {if(x==5)
-                        {System.out.println("Este numarul 5");}
-                        else
-                        {
-                            if(x==6)
-                            {System.out.println("Este numarul 6");}
-                            else
-                            {if(x==7)
-                            {System.out.println("Este numarul 7");}
-                            else
-                            {if(x==8)
-                            {System.out.println("Este numarul 8");}
-                            else
-                            {
-                                if(x==9)
-                                {System.out.println("Este numarul 9");}
-                                else
-                                    System.out.println("Nu este in intervalul [0,9]");
+      //Exercitiul 12 Var 1
+
+        int x=6;
+        switch(x) {
+            case 0:
+                System.out.println("Este luna ianuarie");
+                break;
+            case 1:
+                System.out.println("Este luna februarie");
+                break;
+            case 2:
+                System.out.println("Este luna martie");
+                break;
+            case 3:
+                System.out.println("Este luna aprilie");
+                break;
+            case 4:
+                System.out.println("Este luna mai");
+                break;
+
+            case 5:
+                System.out.println("Este luna iunie");
+                break;
+            case 6:
+                System.out.println("Este luna iulie");
+                break;
+            case 7:
+                System.out.println("Este luna august");
+                break;
+            case 8:
+                System.out.println("Este luna septembrie");
+                break;
+            case 9:
+                System.out.println("Este luna octombrie");
+                break;
+            case 10:
+                System.out.println("Este luna noiembrie");
+                break;
+            case 11:
+                System.out.println("Este luna decembrie");
+                break;
+            default:
+                System.out.println("Nu exista aceasta luna");
+                break;
 
 
-                            }
-
-                            }
-
-                            }
-                        }
-
-                        }
-                    }
-            }
         }
-
-
-
     }
 }
 
