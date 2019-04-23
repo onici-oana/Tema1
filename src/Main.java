@@ -2,14 +2,15 @@ public class Main {
 
     public static void main(String[] args) {
 
-      //Exercitiul 13
+      //Exercitiul 14
 
-        int n=4;
-        for(int i=0;i<n;i++)
-        {
-            System.out.print("GO ");
+        int n=3;
+        for(;;) {
+            for (int i = 0; i < n; i++) {
+                System.out.print("GOING ");
+            }
+            System.out.println();
         }
-        System.out.println("GATA");
     }
 }
 
