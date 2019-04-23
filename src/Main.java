@@ -2,14 +2,16 @@ public class Main {
 
     public static void main(String[] args) {
 
-       //Exercitiul 8
-        int a=2,b=4,s=1;
-        while(b!=0)
+       //Exercitiul 9
+        int n=8;
+        for(int i=1;i<=n;i++)
         {
-            s=s*a;
-            b--;
+            for(int j=1;j<=i;j++)
+            {
+                System.out.print(j+ " ");
+            }
+            System.out.println();
         }
-        System.out.println(s);
     }
 }
 
