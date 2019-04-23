@@ -2,15 +2,14 @@ public class Main {
 
     public static void main(String[] args) {
 
-       //Exercitiul 7
-        int n=3,s=1;
-        while(n!=0)
-        { s=s*3;
-          n--;
+       //Exercitiul 8
+        int a=2,b=4,s=1;
+        while(b!=0)
+        {
+            s=s*a;
+            b--;
         }
-
-        System.out.println(2*s);
-
+        System.out.println(s);
     }
 }
 
