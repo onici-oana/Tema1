@@ -2,16 +2,20 @@ public class Main {
 
     public static void main(String[] args) {
 
-       //Exercitiul 9
-        int n=8;
-        for(int i=1;i<=n;i++)
+       //Exercitiul 10
+
+        int suma=0,k=5;
+        int[] array=new int[]{2,5,4,7,9,4,10,2,8,99,71};
+        for(int i=0;i<array.length;i++)
         {
-            for(int j=1;j<=i;j++)
+            if(array[i]%2==0 && k!=0)
             {
-                System.out.print(j+ " ");
+                suma=suma+array[i];
+                k--;
             }
-            System.out.println();
         }
+        System.out.println(suma);
+
     }
 }
 
